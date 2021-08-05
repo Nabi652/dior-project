@@ -1,0 +1,115 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url(../font/OpenSansCondensed-Light.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
+  list-style: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 200vh; /* fait deux fois la taille de l'écran utilisateur*/
+  overflow-x: hidden;
+}
+
+/* ------------------- ensemble devise / service client / points de vente ------------------*/
+
+.ensemble1 {
+  display: flex;
+  width: 100%;
+  background-color: #e5e5e5;
+  height: 40px;
+  align-items: center;
+}
+
+.ensemble1 p {
+  font-family: "Open Sans";
+}
+
+.devise,
+.service-client,
+.points-vente {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  cursor: pointer;
+}
+
+.devise {
+  margin-left: 50px;
+  margin-right: 45px;
+  padding-left: 20px;
+}
+
+.service-client {
+  margin-right: 45px;
+}
+
+/* ------------------------ icone ----------------------*/
+
+.fa-angle-down {
+  position: absolute;
+  right: 80px;
+  top: 13px;
+  font-size: 25px;
+}
+.fa-phone-alt {
+  position: absolute;
+  right: 75px;
+  top: 17px;
+}
+.fa-map-marker-alt {
+  position: absolute;
+  right: 85px;
+  top: 17px;
+}
+
+/* ------------------------------- ensemble2 : barre de recherche, logo et icones ------------------*/
+
+.ensemble2 {
+  display: flex;
+  width: 95%;
+  margin: auto;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+/* ----------------------------------- barre de recherche ----------------------------*/
+
+.input {
+  border-radius: 99px;
+  height: 50px;
+  width: 300px;
+  padding-left: 25px;
+  font-size: 19px;
+  font-family: "Open Sans";
+  border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+.fa-search {
+  position: absolute;
+  left: 295px;
+  bottom: 335px;
+  color: rgba(0, 0, 0, 0.521);
+  font-size: 20px;
+}
+
+/* ---------------- logo --------------------*/
+
+/* --------------- icones ----------------------------*/
+
+.box-icones {
+  width: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-heart,
+.fa-user,
+.fa-shopping-bag {
+  font-size: 20px;
+}
