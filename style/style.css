@@ -7,6 +7,7 @@
   box-sizing: border-box;
   /* font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; */
   list-style: none;
+  font-family: "Open Sans";
 }
 
 body {
@@ -99,7 +100,9 @@ body {
 }
 
 /* ---------------- logo --------------------*/
-
+.img-logo {
+  width: 130px;
+}
 /* --------------- icones ----------------------------*/
 
 .box-icones {
@@ -112,4 +115,25 @@ body {
 .fa-user,
 .fa-shopping-bag {
   font-size: 20px;
+}
+
+/* ----------------------- menu en ligne ------------------------ */
+
+.menu {
+  width: 90%;
+  margin: auto;
+  margin-top: 45px;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.212);
+}
+
+.border-bottom {
+}
+
+.liste-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+  margin-bottom: 20px;
 }
