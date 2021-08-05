@@ -94,7 +94,7 @@ body {
 .fa-search {
   position: absolute;
   left: 295px;
-  bottom: 335px;
+  bottom: 645px;
   color: rgba(0, 0, 0, 0.521);
   font-size: 20px;
 }
@@ -126,14 +126,77 @@ body {
   border-bottom: 1px solid rgba(128, 128, 128, 0.212);
 }
 
-.border-bottom {
-}
-
 .liste-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 85%;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+}
+li {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.075);
+  padding-bottom: 20px;
+}
+
+li:hover {
+  border-bottom: 2px solid black;
+  padding-bottom: 20px;
+}
+
+/* --------------------------- ensemble 3 : photo -------------------------*/
+
+.ensemble3 {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.modefemme-p,
+h1,
+.parfum-p,
+h2,
+.modehomme-p,
+.maquillage-p,
+.soin-p {
+  margin-left: 55px;
+}
+
+.button {
+  border: none;
+  background-color: black;
+  color: white;
+  border-radius: 99px;
+  width: 250px;
+  height: 50px;
+  font-size: 20px;
+  margin-left: 55px;
+  cursor: pointer;
+}
+
+#cart {
+  padding-right: 15px;
+}
+
+/* ------------------------ carte --------------------*/
+
+.section4 {
+  position: relative;
+}
+
+.ensemble4 {
+  margin-top: 55px;
+  width: 100%;
+}
+.img9 {
+  width: 100%;
+}
+
+.box-ensemble4 {
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  z-index: 3;
 }
