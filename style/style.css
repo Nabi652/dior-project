@@ -196,7 +196,7 @@ h2,
 
 .box-ensemble4 {
   position: absolute;
-  left: 700px;
+  left: 600px;
   top: 150px;
   z-index: 3;
 }
@@ -234,4 +234,76 @@ h2,
   top: -80px;
   width: 200px;
   font-size: xx-large;
+}
+
+/* ------------------------ section avantages e-boutique ---------------*/
+.avantages {
+  background-color: black;
+  display: flex;
+
+  height: 500px;
+  position: relative;
+}
+
+.ensemble5 {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.avantages-h2,
+.avantages-h3,
+.avantages-p,
+.fa-truck,
+.fa-undo,
+.fa-gift {
+  color: white;
+}
+
+.avantages-h2 {
+  position: absolute;
+  left: 570px;
+}
+
+.livraison,
+.retours,
+.cadeau {
+  padding: 100px;
+  position: relative;
+  display: flex;
+  margin-top: 100px;
+  height: 300px;
+}
+
+.fa-truck,
+.fa-undo,
+.fa-gift {
+  position: absolute;
+  left: 140px;
+  top: 90px;
+  font-size: 25px;
+}
+
+.avantages-h3 {
+  width: 150px;
+}
+
+.avantages-p {
+  position: absolute;
+  top: 150px;
+  left: 40px;
+  text-align: center;
+}
+
+.retours p {
+  left: 60px;
+}
+
+.cadeau p {
+  left: -50px;
+}
+
+.cadeau {
+  margin-left: 50px;
 }
