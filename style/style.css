@@ -200,3 +200,38 @@ h2,
   top: 150px;
   z-index: 3;
 }
+
+.input-map {
+  left: 10px;
+  position: absolute;
+  border-radius: 99px;
+  height: 50px;
+  width: 300px;
+  padding-left: 50px;
+  font-size: 20px;
+}
+
+#search-ensemble4 {
+  position: absolute;
+  top: 17px;
+  left: 15px;
+  color: white;
+}
+
+.box-noire {
+  width: 50px;
+  height: 49px;
+  background-color: black;
+  position: absolute;
+  left: 260px;
+  border-top-right-radius: 99px;
+  border-bottom-right-radius: 99px;
+}
+
+.ensemble4-h2 {
+  position: absolute;
+  left: 10px;
+  top: -80px;
+  width: 200px;
+  font-size: xx-large;
+}
