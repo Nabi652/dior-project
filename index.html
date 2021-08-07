@@ -222,47 +222,54 @@
     </section>
 
     <footer>
-      <div class="footer1">
-        <h4>NEWSLETTER</h4>
-        <p>Inscrivez-vous et suivez les dernières actualités de la Maison</p>
-        <form action="">
-          <input type="text" placeholder="Votre email" />
-          <button>OK</button>
-          <div class="box-noire2"></div>
-        </form>
-      </div>
+      <div class="ensemble-footer">
+        <div class="footer1">
+          <h4 class="footer1-h4">NEWSLETTER</h4>
+          <p class="footer1-p">
+            Inscrivez-vous et suivez les dernières actualités de la <br />
+            Maison
+          </p>
+          <form action="" class="footer1-form">
+            <input type="text" placeholder="Votre email" />
+            <button>OK</button>
+            <div class="box-noire2"></div>
+          </form>
+        </div>
 
-      <div class="footer2">
-        <ul>
-          <li>Contact</li>
-          <li>Livraisons & retours</li>
-          <li>FAQ</li>
-          <li>Mentions légales</li>
-          <li>Politiqque de vie privée</li>
-          <li>Gestion de cookies</li>
-          <li>Conditions générales de vente</li>
-          <li>Accessibilité</li>
-          <li>Index d'égalité femmes-hommes</li>
-          <li>Carrières</li>
-        </ul>
-      </div>
-      <div class="footer3">
-        <h4>SUIVEZ-NOUS</h4>
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-instagram"></i>
-        <h4>PAYS/REGION</h4>
-        <label for="country-select">PAYS/REGION</label>
-        <select name="country" id="country-select">
-          <option value="">Choisissez votre pays</option>
-          <option value="">France</option>
-          <option value="">Royaume-Uni</option>
-          <option value="">Allemagne</option>
-          <option value="">Italie</option>
-          <option value="">Espagne</option>
-          <option value="">Suisse</option>
-          <option value="">Suède</option>
-        </select>
+        <div class="footer2">
+          <ul>
+            <li>Contact</li>
+            <li>Livraisons & retours</li>
+            <li>FAQ</li>
+            <li>Mentions légales</li>
+            <li>Politique de vie privée</li>
+            <li>Gestion de cookies</li>
+            <li>Conditions générales de vente</li>
+            <li>Accessibilité</li>
+            <li>Index d'égalité femmes-hommes</li>
+            <li>Carrières</li>
+          </ul>
+        </div>
+        <div class="footer3">
+          <h4>SUIVEZ-NOUS</h4>
+          <div class="box-icone">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <h4>PAYS/REGION</h4>
+          <label for="country-select"></label>
+          <select name="country" id="country-select" class="select">
+            <option value="" class="lol">Choisissez votre pays</option>
+            <option value="">France</option>
+            <option value="">Royaume-Uni</option>
+            <option value="">Allemagne</option>
+            <option value="">Italie</option>
+            <option value="">Espagne</option>
+            <option value="">Suisse</option>
+            <option value="">Suède</option>
+          </select>
+        </div>
       </div>
     </footer>
   </body>

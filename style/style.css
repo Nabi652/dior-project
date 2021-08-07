@@ -307,3 +307,87 @@ h2,
 .cadeau {
   margin-left: 50px;
 }
+
+/* ---------------------- footer --------------------------*/
+
+.ensemble-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* --------------- box newsletter ----------*/
+/* ----------- paragraphes et titres box newsletter & box suivez nous------------*/
+
+.footer1-p,
+.footer1-h4,
+.footer3 h4 {
+  text-align: center;
+}
+.footer1 {
+  margin-top: 150px;
+}
+
+.footer1-form input {
+  border-radius: 99px;
+  width: 250px;
+  height: 40px;
+  padding-left: 50px;
+}
+.footer1-form button {
+  height: 40px;
+  width: 50px;
+  border-top-right-radius: 99px;
+  border-bottom-right-radius: 99px;
+  margin-left: -52px;
+  background-color: black;
+  color: white;
+  border: none;
+}
+
+/* ---------------- box ul -------------------*/
+.footer2 {
+  margin-top: 40px;
+}
+.footer2 li {
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: white;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.footer2 li:hover {
+  text-decoration: underline;
+  font-weight: bolder;
+}
+
+/*------------------ box suivez nous -------------------*/
+
+.footer3 {
+  width: 350px;
+  margin-top: 90px;
+}
+
+.footer3 i {
+  font-size: 40px;
+  color: #7a7a7a;
+  cursor: pointer;
+}
+
+.box-icone {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.select {
+  /* margin: auto; */
+  border: none;
+  /* margin-left: 100px; */
+  font-size: 20px;
+  border-radius: 99px;
+  border: 1px solid grey;
+  height: 50px;
+  width: 350px;
+  text-align: center;
+}
