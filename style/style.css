@@ -240,7 +240,6 @@ h2,
 .avantages {
   background-color: black;
   display: flex;
-
   height: 500px;
   position: relative;
 }
@@ -390,4 +389,155 @@ h2,
   height: 50px;
   width: 350px;
   text-align: center;
+}
+
+/* ------------------------------ media query ----------------------------*/
+
+@media only screen and (min-width: 360px) and (max-width: 1000px) {
+  .ensemble1 {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    height: 50px;
+  }
+
+  .ensemble2 {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: relative;
+  }
+
+  .box-img-logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  #search-ensemble2 {
+    position: absolute;
+    top: 15px;
+    right: 0px;
+  }
+
+  .liste-menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .liste-menu li {
+    border-bottom: 0px solid white;
+  }
+
+  .menu {
+    border-bottom: 0px solid white;
+  }
+
+  /* ------------------ images -------------------*/
+
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8 {
+    width: 100%;
+  }
+
+  /* ------------------- ensemble4------------------*/
+  .img9 {
+    height: 200px;
+    object-fit: cover;
+  }
+  .ensemble4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 70px;
+    position: relative;
+  }
+
+  .box-ensemble4 {
+    left: 10px;
+    top: 100px;
+  }
+
+  /* .box-ensemble4 input {
+    width: auto;
+  } */
+
+  .box-ensemble4 h2 {
+    font-size: x-large;
+  }
+
+  /* -------------------- ensemble 5------------*/
+  .avantages-h2 {
+    left: 25px;
+  }
+
+  .avantages {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+  }
+  .ensemble5 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    width: 100px;
+    justify-content: center;
+  }
+
+  .livraison,
+  .retours,
+  .cadeau {
+    padding: 0px;
+    margin: 0px;
+    height: 300px;
+    position: relative;
+  }
+
+  .livraison p,
+  .retours p,
+  .cadeau p {
+    left: -25px;
+  }
+
+  .livraison h3,
+  .retours h3 {
+    position: absolute;
+    top: 20px;
+    left: -2px;
+  }
+
+  .fa-truck,
+  .fa-undo,
+  .fa-gift {
+    left: 45px;
+  }
+
+  /* ---------------- footer ---------------------*/
+  footer {
+    padding-bottom: 50px;
+  }
+  .ensemble-footer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer1-form > input {
+    margin-left: 60px;
+  }
+
+  .select {
+    width: auto;
+    margin-left: 100px;
+  }
 }
