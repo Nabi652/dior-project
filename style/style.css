@@ -523,9 +523,10 @@ h2,
     left: 45px;
   }
 
-  /* ---------------- footer ---------------------*/
+  /* --------------- footer ---------------------*/
   footer {
-    padding-bottom: 50px;
+    padding-bottom: 250px;
+    position: relative;
   }
   .ensemble-footer {
     display: flex;
@@ -533,11 +534,17 @@ h2,
   }
 
   .footer1-form > input {
-    margin-left: 60px;
+    margin-left: 100px;
   }
 
   .select {
     width: auto;
     margin-left: 100px;
+  }
+
+  .footer3 {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
   }
 }
