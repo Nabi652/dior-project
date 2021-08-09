@@ -393,7 +393,7 @@ h2,
 
 /* ------------------------------ media query ----------------------------*/
 
-@media only screen and (min-width: 360px) and (max-width: 1000px) {
+@media only screen and (min-width: 360px) and (max-width: 767px) {
   .ensemble1 {
     padding-top: 10px;
     padding-bottom: 15px;
@@ -418,7 +418,35 @@ h2,
     top: 15px;
     right: 0px;
   }
+}
+@media only screen and (min-width: 449px) and (max-width: 533px) {
+  #search-ensemble2 {
+    color: red;
+    left: 345px;
+  }
+}
 
+@media only screen and (min-width: 534px) and (max-width: 614px) {
+  #search-ensemble2 {
+    color: red;
+    left: 390px;
+  }
+}
+@media only screen and (min-width: 614px) and (max-width: 700px) {
+  #search-ensemble2 {
+    color: red;
+    left: 430px;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 767px) {
+  #search-ensemble2 {
+    color: red;
+    left: 470px;
+  }
+}
+
+@media only screen and (min-width: 360px) and (max-width: 767px) {
   .liste-menu {
     display: flex;
     flex-direction: column;
@@ -465,10 +493,6 @@ h2,
     left: 10px;
     top: 100px;
   }
-
-  /* .box-ensemble4 input {
-    width: auto;
-  } */
 
   .box-ensemble4 h2 {
     font-size: x-large;
@@ -546,5 +570,59 @@ h2,
     position: absolute;
     left: 50px;
     bottom: 50px;
+  }
+}
+
+/* -------------------- media query IPAD ------------------------*/
+
+@media only screen and (min-width: 767px) and (max-width: 1900px) {
+  #search-ensemble2 {
+    color: red;
+    left: 280px;
+    top: 75px;
+  }
+
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5,
+  .img6,
+  .img7,
+  .img8 {
+    width: 100%;
+  }
+
+  .ensemble5 {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+  }
+
+  .retours {
+    position: absolute;
+    top: -80px;
+    left: -0px;
+  }
+  .livraison {
+    position: absolute;
+    left: 400px;
+    top: -80px;
+  }
+
+  .cadeau {
+    position: absolute;
+    left: 150px;
+  }
+
+  .avantages-h2 {
+    left: 210px;
+  }
+
+  .box-ensemble4 {
+    left: 250px;
+    top: 40px;
   }
 }
