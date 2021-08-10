@@ -421,27 +421,23 @@ h2,
 }
 @media only screen and (min-width: 449px) and (max-width: 533px) {
   #search-ensemble2 {
-    color: red;
     left: 345px;
   }
 }
 
 @media only screen and (min-width: 534px) and (max-width: 614px) {
   #search-ensemble2 {
-    color: red;
     left: 390px;
   }
 }
 @media only screen and (min-width: 614px) and (max-width: 700px) {
   #search-ensemble2 {
-    color: red;
     left: 430px;
   }
 }
 
 @media only screen and (min-width: 700px) and (max-width: 767px) {
   #search-ensemble2 {
-    color: red;
     left: 470px;
   }
 }
@@ -577,11 +573,12 @@ h2,
 
 @media only screen and (min-width: 767px) and (max-width: 1900px) {
   #search-ensemble2 {
-    color: red;
     left: 280px;
     top: 75px;
   }
+}
 
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
   .img1,
   .img2,
   .img3,
